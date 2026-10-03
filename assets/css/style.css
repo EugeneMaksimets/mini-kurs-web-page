@@ -2508,6 +2508,13 @@ footer .logo { margin-bottom: 30px; }
   cursor: pointer;
   transition: background-color 0.2s ease, transform 0.1s ease;
   letter-spacing: 0.5px;
+
+  /* РЕШЕНИЕ ПРОБЛЕМЫ: */
+  text-align: center;        
+  display: flex;              
+  align-items: center;       
+  justify-content: center;    
+  text-decoration: none; 
 }
 
 .btn-with-margin-top:hover {
