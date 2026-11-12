@@ -260,7 +260,7 @@ h3 {
 
 .float-note {
     position: absolute;
-    top: 490px;
+    bottom: 25px;
     right: 15px;
     background: var(--paper);
     border: 1px solid var(--line);
@@ -696,9 +696,12 @@ footer a {
     }
 
     .float-note {
-        right: 5px;
-        top: 20px;
-        font-size: 14px
+    right: 15px;
+    bottom: 25px;
+    bottom: 25px;
+    font-size: 13px;
+    padding: 12px 15px;
+    transform: rotate(-3deg);
     }
 
     .section {
